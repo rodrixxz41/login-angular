@@ -1,8 +1,6 @@
-# 🔐 Sistema de Autenticación con Angular y Firebase
+# Sistema de Login con Angular y Firebase
 
-Aplicación web de inicio de sesión mediante Google, desarrollada con Angular y Firebase Authentication. Permite autenticar usuarios, consultar sus datos de perfil y acceder a un panel de control protegido.
-
-**Repositorio:** [github.com/rodrixxz41/login-angular](https://github.com/rodrixxz41/login-angular)
+🚀 **Aplicación desplegada:** [Probar aplicación aquí](https://login-angular-bd1a0.web.app)
 
 ---
 
