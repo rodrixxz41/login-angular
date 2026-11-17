@@ -1,0 +1,57 @@
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #dbeafe, #eff6ff);
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-card {
+  width: 380px;
+  padding: 40px 30px;
+  background: white;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1 {
+  color: #1e293b;
+  margin-top: 20px;
+}
+
+.subtitle {
+  color: #64748b;
+}
+
+.user-info {
+  margin: 25px 0;
+  padding: 15px;
+  background: #f8fafc;
+  border-radius: 8px;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 12px;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background: #b91c1c;
+}

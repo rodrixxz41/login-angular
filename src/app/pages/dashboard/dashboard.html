@@ -1,0 +1,30 @@
+<div class="dashboard-container">
+  @if (authService.user$ | async; as user) {
+    <div class="dashboard-card">
+
+      @if (user.photoURL) {
+        <img
+          [src]="user.photoURL"
+          alt="Foto de perfil"
+          class="profile-image"
+        />
+      }
+
+      <h1>¡Bienvenido, {{ user.displayName }}!</h1>
+
+      <p class="subtitle">
+        Has iniciado sesión correctamente.
+      </p>
+
+      <div class="user-info">
+        <p><strong>Nombre:</strong> {{ user.displayName }}</p>
+        <p><strong>Correo:</strong> {{ user.email }}</p>
+      </div>
+
+      <button class="logout-button" (click)="logout()">
+        Cerrar sesión
+      </button>
+
+    </div>
+  }
+</div>
